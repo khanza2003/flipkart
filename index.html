@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <nav class="flex items-center px-52 relative bg-slate-100">
+            <img class="w-48" src="./images/Flipkart-Logo-removebg-preview.png" alt="">
+           <a class="search flex justify-between items-center mx-52" href="#">
+                <i class="fa-solid fa-magnifying-glass cursor-pointer" style="color: #c8cdd5;"></i>
+                <input type="text" placeholder="Search for Products,Brands and More">
+           </a>
+            <div class="flex justify-between items-center mx-24">
+                <input type="checkbox" id="log">
+                <label for="log" class="loglab flex items-center">
+                    
+                    <i class="fa-regular fa-user cursor-pointer"></i>
+                   <a href> <h1 id="clk1" class="flex items-center mx-4">Login <i class="fa-solid fa-chevron-down"></i></h1></a>
+                </label>
+               <div class="drop">
+                <ul> <span class="leading-4 mx-4">New Customer? </span> <a class="no-underline text-sky-600" href="#">Sign Up</a>
+                    <hr>
+                    <li><a href="" class="mx-4"><i class="fa-light fa-user"></i>My Profile</a></li>
+                    <li><a href="" class="mx-4"><i class="fa-regular fa-star"></i>Flipkart Plus Zone</a></li>
+                    <li><a href="" class="mx-4"><i class="fa-regular fa-box"></i>Order</a></li>
+                    <li><a href="" class="mx-4"><i class="fa-regular fa-heart"></i>Wishlist</a></li>
+                    <li><a href="" class="mx-4"><i class="fa-regular fa-gift"></i>Reward</a></li>
+                    <li><a href="" class="mx-4"><i class="fa-regular fa-credit-card"></i>Gift Cards</a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="clk2 flex justify-between items-center mx-12">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#"><h1>Cart</h1></a>
+            </div>
+            <div class="clk3 flex justify-between items-center mx-24">
+                <i class="fa-solid fa-store"></i>
+               <a href="#"> <h>BecameSeller</h1></a>
+            </div>
+            <div>
+                <input type="checkbox" id="dots">
+                <label for="dots" class="dotlab">  
+                   <i id="dot" class="fa-solid fa-ellipsis-vertical mx-12 cursor-pointer"></i>
+                </label>
+               <div class="drop-down bg-slate-200">
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-bell"></i>Notification Preferences</a></li>
+                    <li><a href="#"><i class="fa-solid fa-headset"></i>24*7 Customer Services</a></li>
+                    <li><a href="#"><i class="fa-solid fa-arrow-up-right-dots"></i>Advertise</a></li>
+                    <li><a href="#"><i class="fa-solid fa-download"></i>Download App</a></li>
+                </ul>
+               </div>
+            </div>
+        </nav>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="menu" class="flex justify-between mx-48 items-center">
+            <div class="mr-12">
+                <img class="w-48 h-16" src="./images/grocery-removebg-preview.png" alt="" >
+                <h1><a href="#seven">Grocery</a></h1>
+            </div>
+            <div class="mr-12">
+                <img class="h-16" src="./images/mobiles-removebg-preview.png" alt="">
+                <h1><a href="#five">Mobiles</a></h1>
+            </div>
+            <div class="mr-12">
+                <img class="h-16" src="./images/fashion-removebg-preview.png" alt="">
+                <h1><a href="#third">Fashion</a></h1>
+            </div>
+            <div class="mr-12">
+                <img src="./images/electronics-removebg-preview.png" alt="">
+                <h1><a href="#sec">Electronics</a></h1>
+            </div>
+            <div class="mr-12">
+                <img class="w-48 h-16" src="./images/sofa-removebg-preview.png" alt="">
+                <h1><a href="#six">Home&Furnitures</a></h1>
+            </div>
+            <div class="menu1 mr-12">
+                <img class="h-16" src="./images/appliances-removebg-preview.png" alt="">
+                <h1><a href="#">Appliances</a></h1>
+            </div>
+            <div class="menu2 mr-12">
+                <img class="w-24 h-16" src="./images/plain-removebg-preview.png" alt="">
+                <h1><a href="#">Travel</a></h1>
+            </div>
+            <div class="menu3 mr-12">
+                <img  src="./images/twowheeler-removebg-preview.png" alt="">
+                <h1><a href="">TwoWheelers</a></h1>
+            </div>
+            <div class="menu4 mr-12">
+                <img class="h-16" src="./images/toy-removebg-preview.png" alt="">
+                <h1><a href="#four">Beauty,Toys&More</a></h1>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div class="body1 flex bg-blue-600">
+            <img class="grl w-1/3" src="./images/girl-removebg-preview.png" alt="">
+            <div class="cont mx-48 ">
+                <img class="w-18" src="./images/loreal-removebg-preview.png" alt="">
+                <p class="text-4xl" >Best selling hair care Products</p>
+                <h3 class="text-2xl ">Up to 20% Off</h3>
+                <span class="text-lg ">SHOP NOW</span>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="sec" class="flex">
+            <div id="elec">
+                <h1 class="font-bold text-5xl mb-8">Best Of Electronics</h1>
+                <div class="grid1 flex item grid-cols-6 grid-rows-1 gap-x-2.5">
+                    <div class="h-96 border-2 w-80">
+                        <img class="h-42 mt-12" src="./images/camera-removebg-preview.png" alt="">
+                        <h1 class="text-center text-2xl font-bold">Top Mirrorless Cameras</h1>
+                        <a class="ml-12 text-lg font-bold" href="">Shop Now!</a>
+                    </div>
+                    <div class="h-96 border-2 w-80">
+                        <img class="mb-8 h-48 mx-12" src="./images/earpod-removebg-preview.png" alt="">
+                        <h1 class="text-center text-2xl font-bold ">Best Truewireless Headphone</h1>
+                        <a class="ml-12 text-lg font-bold " href="">Shop Now!</a>
+                    </div>
+                    <div class="h-96 border-2 w-80">
+                        <img class="mb-8 h-48 " src="./images/monitor-removebg-preview.png" alt="">
+                        <h1 class="text-center text-2xl font-bold">ASUS Monitors</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.14,999</h3>
+                    </div>
+                    <div class="h-96 border-2 w-80">
+                        <img class="mb-8 h-48" src="./images/speaker-removebg-preview.png" alt="">
+                        <h1 class="text-center text-2xl font-bold">Best Selling Mobile Speakers </h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.499*</h3>
+                    </div>
+                    <div class="h-96 border-2 w-80">
+                        <img class="mb-8 h-48" src="./images/watch-removebg-preview.png" alt="">
+                        <h1 class="text-center text-2xl font-bold">BoAt Smartwatches</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.1,099</h3>
+                    </div>
+                    <div class="h-96 border-2 w-80">
+                        <img class="mb-8 h-48" src="./images/port-removebg-preview.png" alt="">
+                        <h1 class="text-center text-2xl font-bold">Sandisk Extreme Port</h1>
+                        <h3 class="ml-10 text-lg font-bold">From Rs.5,799</h3>
+                    </div>
+                    <div class="ad">
+                        <img class="flipflight h-96" src="./images/flipflight.avif" alt="">
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="third" class="flex">
+            <div id="elec">
+                <h1 class="font-bold text-5xl mb-8">Pick Your Style</h1>
+                <div class="grid2 flex item grid-cols-6 grid-rows-1 gap-x-2.5">
+                    <div class="h-96 border-2 w-72">
+                        <img class="Sweatshirts h-48 mx-12 mt-8" src="./images/menssweat.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Sweatshirts,Hoodie,Jac.. </h1>
+                        <a class="ml-12 text-lg font-bold" href="">From Rs.249</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 mx-12" src="./images/shoe.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold ">Shoes,sandals&floaters</h1>
+                        <a class="ml-12 text-lg font-bold " href="">Min. 40% Off</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16 " src="./images/trolley.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Bags,Trolleys,Luggage</h1>
+                        <h3 class="ml-12 text-lg font-bold">50-70%+Extra 10% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/pants.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Pants,Track suits</h1>
+                        <h3 class="ml-20 text-lg font-bold">Up to 60% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/kurta.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Trendy Kurtas</h1>
+                        <h3 class="ml-20 text-lg font-bold">Under Rs.499</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/saree.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Trendy Sarees</h1>
+                        <h3 class="ml-24 text-lg font-bold">Under Rs.499</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/kutaset.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Kurta Sets</h1>
+                        <h3 class="ml-24 text-lg font-bold">Min. 40% Off</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="four" class="flex">
+            <div id="elec">
+                <h1 class="font-bold text-5xl mb-8">Food,Toys & More</h1>
+                <div class="grid3 flex item grid-cols-6 grid-rows-1 gap-x-2.5">
+                    <div class="h-96 border-2 w-72">
+                        <img class="h-42 mt-12 w-48 ml-12" src="./images/stationery.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Top Selling Stationery</h1>
+                        <a class="ml-20 text-lg font-bold" href="">From Rs.49</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 " src="./images/cycle.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold ">Geared Cycle</h1>
+                        <a class=" text-lg font-bold ml-20" href="">Upto 70% Off</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16 " src="./images/toy.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Best of Action Toys</h1>
+                        <h3 class="ml-24 text-lg font-bold">Upto 70% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="remotecar mb-8 h-48 ml-12" src="./images/remotecar.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Remote Control Toys</h1>
+                        <h3 class="ml-20 text-lg font-bold">Upto 80% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48" src="./images/non-gear.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Non-Geared Cycles</h1>
+                        <h3 class="ml-20 text-lg font-bold">Upto 40% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/puzzle.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Puzzles & Cubes</h1>
+                        <h3 class="ml-24 text-lg font-bold">From Rs.79</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/threadmill.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Treadmill,Exercise....</h1>
+                        <h3 class="ml-16 text-lg font-bold">Upto 70% Off</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="five" class="flex">
+            <div id="elec">
+                <h1 class="font-bold text-5xl mb-8">Top Deals On Mobiles</h1>
+                <div class="grid4 flex item grid-cols-6 grid-rows-1 gap-x-2.5">
+                    <div class="h-96 border-2 w-72">
+                        <img class="iPhone w-40 ml-10 mb-5" src="./images/16 pro.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Apple iPhone 15 Pro</h1>
+                        <a class="ml-12 text-lg font-bold" href="">Upto 24% off</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="googlepixel mb-1 h-60 w-52 mx-12" src="./images/googlepixel.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold ">Google Pixel 8a</h1>
+                        <a class="ml-12 text-lg font-bold " href="">From Rs.52,999</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/honor.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Honor 200 Lite 5G</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.20,000</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/oppo.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Oppo Reno 12 5G</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.32,999</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/realme.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">realme NARZO</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.14,999</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/s23 ultra.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Samsung Galaxy S23 Ultra 5G</h1>
+                        <h3 class="ml-24 text-lg font-bold">From Rs.90,799</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/vivo.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Vivo Y200e 5G</h1>
+                        <h3 class="ml-24 text-lg font-bold">From Rs.20,999</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="six" class="flex">
+            <div id="elec">
+                <h1 class="font-bold text-5xl mb-8">Furniture Studio</h1>
+                <div class="grid5 flex item grid-cols-6 grid-rows-1 gap-x-2.5">
+                    <div class="h-96 border-2 w-72">
+                        <img class="h-42 mt-1 ml-6" src="./images/bed.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Luxury Modern Bed</h1>
+                        <a class="ml-12 text-lg font-bold" href="">Rs.52,499</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48" src="./images/wooden-office-tables.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold ">Wooden Office Table</h1>
+                        <a class="ml-12 text-lg font-bold " href="">Rs.6000</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/chair.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Wooden Chair</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.4000</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/shelves.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Wood Open Book Shelf</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.4000</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-8" src="./images/bedside.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">FUTURE GENERATION V GROUP</h1>
+                        <h3 class="ml-20 text-lg font-bold">From Rs.1,000</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-3" src="./images/sofa.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Solid Wood Sofa Set</h1>
+                        <h3 class="ml-10 text-lg font-bold">From Rs.15,799</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-12" src="./images/light.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Ceiling Hanging Light</h1>
+                        <h3 class="ml-10 text-lg font-bold">From Rs.2,799</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div id="seven" class="flex">
+            <div id="elec">
+                <h1 class="font-bold text-5xl mb-8">Grocery Store</h1>
+                <div class="grid6 flex item grid-cols-6 grid-rows-1 gap-x-2.5">
+                    <div class="h-96 border-2 w-72">
+                        <img class="Sweatshirts h-48 mx-12 " src="./images/rice.webp" alt="">
+                        <h1 class="text-center text-2xl font-bold">Rice & Rice Products</h1>
+                        <a class="ml-12 text-lg font-bold" href="">From Rs.100</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 mx-12" src="./images/ghee.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold ">Ghee & oils</h1>
+                        <a class="ml-20 text-lg font-bold " href="">Min. 40% Off</a>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16 " src="./images/snacks.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Snacks & Beverages</h1>
+                        <h3 class="ml-12 text-lg font-bold">50-70%+Extra 10% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-1" src="./images/personal.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Personal Care Products</h1>
+                        <h3 class="ml-20 text-lg font-bold">Up to 60% Off</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-16" src="./images/baby.jpg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Baby Care Products</h1>
+                        <h3 class="ml-20 text-lg font-bold">Under Rs.499</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-1" src="./images/package.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Packaged Food Items</h1>
+                        <h3 class="ml-24 text-lg font-bold">Under Rs.499</h3>
+                    </div>
+                    <div class="h-96 border-2 w-72">
+                        <img class="mb-8 h-48 ml-1" src="./images/house.jpeg" alt="">
+                        <h1 class="text-center text-2xl font-bold">Household Care</h1>
+                        <h3 class="ml-24 text-lg font-bold">Min. 40% Off</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg1 h-3 bg-slate-300"></div>
+        <div class="lastpart bg-slate-100">
+            <h1 class="text-3xl pt-12 pb-4 font-semibold text-gray-600">Top Stories: Brand Directory</h1>
+            <p class="text-lg text-gray-400"><span class="text-xl text-gray-500 ">MOST SEARCHED FOR ON FLIPKART:</span> Nothing Phone 2a Plus | Rakhi | Rakhi Gifts for Brother | Raksha Bandhan Gifts for Sister | Bhaiya Bhabhi Rakhi | Sarees | CMF by Notting Phone 1/ Pocket haza 14 CPane
+
+                50 iPhone 15 Plus | iPhone 15 Pro Blue | iPhone 15 Pro Black | vivo X Fold3 Pro | Motorola g04s | iPhone 15 Pro Max Blue | iPhone 15 Pro Max Black | Vivo x 100 | OnePlus Nord CE 3 Lite 50 Spoyl Stone SAMSUNG
+                
+                Super Elite Credit card 5G Mobile Phones | Primebook Laptops | Moto Edge 40 | Grievance Redressal | OPPO Reno7 Pro 5G iPhone 13 Help Centre Track Orders | Manage Orders | Return Orders Gift Carde MOBILES Redmi 12 50 | Realme 12+50 Motorola G84 Realme C53 Infinix Smart 8 Samsung Galaxy S23 50 | Samsung Galaxy S21 FE SG Qualcomm | vivo V30 | Samsung Galary 524 50|Samsung 324-3 512GB | iPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy 571 FE 5G | Infinix HOT 301 |
+                
+                SAMSUNG
+                
+                Realme 10 Pro SG | MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 Vivo VEZDASP 5g Phone | Iqoo 5g Phones | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 | Oppo A31 | Samsung A71 | Samsung A51 | Samsung A31 | iPhone 11 | Phone 11 Pro 4G Motine Nokia MungMin Mobile
+                
+                CAMERA GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR Nikon DSLR
+                
+                LAPTOPS Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core 19 13th Gen All Zenbook 14 OLED (2072) В Go Pentium 12808 | Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops HP Laptops |
+                
+                Gaming Laptops 2 in 1 Laptops Laptops Deit latest laptops 2022 HP мен нелоши 2022 Book3 12th Gen Intel Core Laptops
+                
+                TVS Nokia TV | Panasonic TV | Thomson TV | MIX Pro | Realme TV | Motorola TV | OnePlus TVs | LG TV TV| Sony TV Samsung TV | Android Television iffalcon Tv MTV
+                
+                LARGE APPLIANCES: Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jugi Heaters/Travel Kettles | Induction Cooktops/vet/
+                
+                CLOTHING Green bridal lehenga | Tops Shoes Sunglasses | Bridal Blouse | Half saree blouse designs | Designer blouses | Blouse designs/Storts/Cotton saree trise designe
+                
+                Ginders Chimneys | Microwave Ovens | Vacuum Cleaners | Water Purifier Fan
+                
+                Serwer Suits Bra | Cutton simple blouse designs | Banarasi saree blouse designs | Stylish blouse astin design | Track Plant | Blouse neck designs Kurtas Party w Sarees
+                
+                Leggings Shorts Georgette Sarees | Ethne Wear uppada pattu sarees Blouse back design | Jodhpur pants
+                
+                FOOTWEAR Andes Shoes | Reebok Shoes | Nike fitoes Puma Shoes Boots | Bata Shoes Woodland Shoes Skechers Shoes Sneakers Womens Boots / Turts Shoes Lo
+                
+                As Sports Shoes Formal Shoes Sichos Shoes
+                
+                Cleaner/Gett/Mutantsessenger Nature Dra
+                
+                GROCERIES Prunele Grocery Voucher Hand Wash | Soap | Cashew Nuts | Sunflower Oil | Eggs | Toilet Cleaner | Marpa Tolet
+                
+                BEST SELLING ON FLIPKART Headphones | Best Gas Geyser | Kitchen Geyser | Nutri Benders | Portable Ar Cooler Best A Coo | Rags [Hitacre Refrigerator 3 Door (Fo Food Chates | Cyces | Caculators | Lipsticks | Mask | Vertiv UPS Fastrack Watches
+                
+                | Walets Emad Mirage
+                
+                Direng sets Wordrobes Mattresses TV Una Tatnes CharshRegs/Office Chars/Солее Такси Таванене Пиле
+                
+                FURNITURE Fiture Sofases
+                
+                BOMH Whey Proten Homeopathy OrcaFoottas Treatmile Ch
+                
+                Flipkart: The One-stop Shopping Destination</p>
+                <h1 class="text-2xl font-bold text-gray-500">Flipkart:The One-Stop Shopping Destination</h1>
+                <p class="text-lg text-gray-400">In today's digital age, online shopping has transformed the way consumers access and purchase goods. One notable example of this transformation is the emergence of comprehensive shopping platforms that offer an extensive range of products across various categories. These platforms are designed to cater to diverse consumer needs, providing a one-stop destination for a broad spectrum of items.The sheer scale of these platforms is impressive. They host an enormous catalog that includes electronics, apparel, home essentials, beauty products, and much more. This vast selection allows consumers to find almost anything they need without having to visit multiple websites or physical stores.Electronics are a major category on such platforms. <br> <br> Shoppers can find the latest gadgets, from smartphones and laptops to smart home devices and accessories. These platforms often feature detailed product descriptions, specifications, and customer reviews to help buyers make informed decisions.Apparel is another significant category, with options ranging from casual wear to formal attire. The platforms typically offer a wide variety of brands and styles, catering to different tastes and preferences. This diversity ensures that shoppers can find clothing that suits their individual style and needs.Home goods are also a key component of these platforms. Consumers can explore a range of items for home improvement, including furniture, kitchenware, and decor. The convenience of browsing and purchasing these items online simplifies the shopping experience for home-related needs.Beauty and personal care products are well-represented as well. Shoppers can find skincare, haircare, and cosmetics from a variety of brands, often accompanied by user reviews and ratings. This helps consumers choose products that best meet their personal preferences and requirements.The convenience of these platforms extends to their user-friendly interfaces. Shoppers can easily navigate through categories, filter search results, and compare products. This streamlined process enhances the overall shopping experience, making it efficient and enjoyable. <br> <br> Another advantage is the variety of payment options available. Consumers can choose from credit and debit cards, digital wallets, and even cash-on-delivery in some cases. This flexibility accommodates different payment preferences and makes transactions smoother.Delivery options are also a crucial aspect. Many platforms offer various shipping methods, including standard, expedited, and same-day delivery. This variety allows consumers to select a delivery option that aligns with their urgency and convenience.Customer service is an essential component of these platforms. They typically offer support through various channels, such as live chat, email, and phone. This accessibility ensures that shoppers can get assistance with their orders, returns, or any other issues they may encounter.Returns and refunds are handled with care, reflecting the platforms' commitment to customer satisfaction. Most platforms have clear policies for returning items and processing refunds, providing reassurance to consumers who may be hesitant about online purchases.Promotional offers and discounts are frequently featured, adding another layer of appeal. Shoppers can benefit from sales, deals, and special promotions, making their shopping experience not only convenient but also cost-effective. <br> <br> Loyalty programs and memberships are often available, providing additional benefits to frequent shoppers. These programs may offer perks such as exclusive discounts, early access to sales, and rewards for purchases, enhancing the overall value of shopping on the platform.The integration of advanced technologies, such as artificial intelligence and machine learning, enhances the shopping experience. Personalized recommendations based on browsing history and purchase behavior help consumers discover products that align with their interests and needs.Security is a top priority for these platforms. They employ robust measures to protect customer data and ensure secure transactions. Encryption and other security protocols safeguard sensitive information, providing peace of mind for shoppers.Sustainability and eco-friendliness are increasingly important considerations. Many platforms are making efforts to offer eco-friendly products, reduce packaging waste, and support sustainable practices, reflecting a growing awareness of environmental impact.The platforms also cater to international shoppers, offering products and services in multiple languages and currencies. <br><br> This global reach allows consumers from different regions to access a wide range of products and enjoy a seamless shopping experience.Integration with mobile apps enhances the convenience of shopping. Shoppers can browse, purchase, and track orders directly from their smartphones, making it easier to shop on the go.Social media integration plays a role in the shopping experience as well. Platforms often use social media channels to promote products, engage with customers, and gather feedback, creating a dynamic and interactive shopping environment.Innovation continues to drive the evolution of these platforms. Ongoing advancements in technology and changes in consumer behavior prompt continuous improvements, ensuring that the platforms remain relevant and effective in meeting the needs of modern shoppers.In conclusion, the large, all-encompassing shopping platforms of today provide an unparalleled convenience and variety. With their extensive product catalogs, user-friendly interfaces, and commitment to customer satisfaction, they offer a comprehensive solution for all shopping needs. As technology and consumer preferences evolve, these platforms are likely to continue adapting and expanding, further enhancing the shopping experience for users around the world.</p>
+                <br>
+                <h1 class="text-2xl font-bold text-gray-500">No Cost EMI</h1>
+                <br>
+                <p class="text-lg text-gray-400">The platform offers a no-cost EMI option, allowing customers to purchase products and pay for them in monthly installments without incurring additional interest charges.</p> <br>
+                <h1 class="text-2xl font-bold text-gray-500">EMI on Debit Cards</h1> <br> 
+                <p class="text-lg text-gray-400">The platform provides an EMI option on debit cards, allowing customers to pay for their purchases in monthly installments directly from their debit card without additional interest.</p> <br>
+                <h1 class="text-2xl font-bold text-gray-500">Mobile Exchange Offeres</h1> <br>
+                <p class="text-lg text-gray-400">The platform features mobile exchange offers, enabling customers to trade in their old devices for discounts or credit towards the purchase of a new smartphone.</p> <br>
+
+        </div>     
+        <div class="footer flex justify-between py-12">
+            <div class="col1">
+                <h1 class="text-gray-400">ABOUT</h1>
+                <ul class="text-white mt-8">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Flipkart Stories</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                </ul>
+            </div>
+            <div class="col2">
+                <h1 class="text-gray-400">GROUP COMPANIES</h1>
+                <ul class="text-white mt-8">
+                    <li><a href="#">Myntra</a></li>
+                    <li><a href="#">Cleartrip</a></li>
+                    <li><a href="#">Shopsy</a></li>
+                </ul>
+            </div>
+            <div class="col3">
+                <h1 class="text-gray-400">HELP</h1>
+                <ul class="text-white mt-8">
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Return</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report Infringement</a></li>
+                </ul>
+            </div>
+            <div class="col4">
+                <h1 class="text-gray-400">CONSUMER POLICY</h1>
+                <ul class="text-white mt-8">
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Grievance Redressal</a></li>
+                    <li><a href="#">EPR Compliance</a></li>
+                </ul>
+            </div>
+            <div class="col5">
+                <h1 class="text-gray-400 mb-8">Mail Us:</h1>
+                <h1 class="text-white mb-8">Flipkart Internet Private Limited, <br>Buildings Alyssa,Begonia & <br>Clove Embassy Tech Village, <br>Outer Ring Road,Devarabeesanahalli Village,<br> Bengaluru, 560103, <br> Karnataka,India</h1>
+                <h1 class="text-gray-400 mb-8">Social:</h1>
+                <i class="fa-brands fa-facebook fa-2x " style="color: #f9fafb;"></i>
+                <i class="fa-brands fa-x-twitter fa-2x ml-3" style="color: #f7f9fc;"></i>
+                <i class="fa-brands fa-youtube fa-2x ml-3" style="color: #eef1f6;"></i>
+            </div>
+            <div class="col6">
+                <h1 class="text-gray-400 mr-10">Registered Office Address</h1>
+                <h1 class="text-white mb-8">Flipkart Internet Private Limited, <br>Buildings Alyssa,Begonia & <br>Clove Embassy Tech Village, <br>Outer Ring Road,Devarabeesanahalli Village,<br> Bengaluru, 560103, <br> Karnataka,India <br>CIN :U51109KA2012PTC066107 <br>Telephone: <a class="text-blue-600" href="#">044-45614700</a>/ <a class="text-blue-600" href="#">044-67415800</a></h1>
+            </div>
+        </div>
+        <div class="last bg-black ">
+            <hr>
+            <div>
+                <ul class="flex justify-between mt-12 h-16">
+                    <li class="text-white"><i class="fa-solid fa-store"></i> Became a Seller</li>
+                    <li class="text-white"><i class="fa-regular fa-star" style="color: #f7f7f8;"></i>Advertise
+                    </li>
+                    <li class="text-white"><i class="fa-solid fa-gift" style="color: #edeff2;"></i>Gift Cards</li>
+                    <li class="text-white"><i class="fa-solid fa-question" style="color: #f2f2f2;"></i>Help center</li>
+                    <li class="text-white"> &copy;2007-2024 Flipkart.com</li>
+                    <li class="flex mb-8 mr-12 ">
+                        <img class="w-24 mr-2" src="./images/visa.png" alt=""><img class="w-24 mr-2" src="./images/master.png" alt=""><img class="w-24 mr-2" src="./images/rupay.png" alt=""><img class="w-24 mr-2" src="./images/d.webp" alt=""><img class="w-24 mr-2" src="./images/cash.png" alt=""><img class="w-24 mr-2" src="./images/emi.jpeg" alt=""><img class="w-24 mr-2" src="./images/net.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

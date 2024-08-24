@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+}
+.drop-down{
+    display: block;
+    position: absolute;
+    margin-left: -190px;
+    top: 100%;
+    display: none;
+    background-color: aliceblue;
+}
+nav{
+    width: 133.25%;
+    margin-right: 0px;
+    position: fixed;
+}
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+#dot{
+    margin-left: -20px;
+}
+.drop-down ul li{
+    width: 250px;
+    line-height: 35px;
+}
+.drop{
+    display: block;
+    position: absolute;
+    left: 5;
+    top: 100%;
+    display: none;
+    background-color: aliceblue;
+}
+.drop ul li{
+    width: 250px;
+    line-height: 35px;
+}
+
+.bg1{
+    width: 133.25%;
+}
+.body1{
+    height: 51vh;
+    width: 133.25%;
+}
+.grl{
+    padding-top: 35px;
+}
+#menu{
+    margin-left: 500px;
+}
+.flipflight{
+    margin-left: 30px;
+    margin-top: -48px;
+    height: 450px;
+}
+.Sweatshirts{
+    margin-top: -2px;
+    margin-bottom: 30px;
+
+}
+.iPhone{
+    margin-top: 6px;
+}
+.googlepixel{
+    margin-top: -6px;
+}
+.lastpart{
+    width: 133%;
+}
+.footer{
+    background-color: black;
+    width: 133%;
+}
+.last{
+    width: 133%;
+}
+#log{
+ display: none;   
+}
+#log:checked~.drop{
+    display: block;
+}
+#dots{
+display: none;
+}
+#dots:checked~.drop-down{
+    display: block;
+}
+.loglab:hover{
+    background-color: rgb(15, 131, 232);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+#dot:hover{
+    background-color: rgb(185, 201, 215);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media(max-width:760px){
+    .search{
+        display: none;
+    }
+    #clk1{
+        display: none;
+    }
+    .clk2{
+        display: none;
+    }
+    .clk3{
+        display: none;
+    }
+    #menu{
+        margin-left: 10px;
+    }
+    .menu1{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    .menu3{
+        display: none;
+    }
+    .menu4{
+        display: none;
+    }
+    .cont{
+        margin-left: 5px;
+    }
+    .grid1{
+       display: block; 
+    }
+    .grid2{
+      display: block;  
+    }
+    .grid3{
+       display: block;
+    }
+    .grid4{
+      display: block; 
+    }
+    .grid5{
+      display: block;  
+    }
+    .grid6{
+      display: block;  
+    }
+    .ad{
+        width: 600px;   
+    }
+    .footer{
+        display: block;
+    }
+
+}
